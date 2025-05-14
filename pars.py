@@ -114,7 +114,7 @@ def scrape_linkedin_profile(url, driver, cookie_file="linkedin_cookies.pkl", out
         button_clean = button.find_elements(By.CSS_SELECTOR, 'span.visually-hidden')
         for b in button_clean:
             button_list.append(b.text)
-    print(button_list)
+    
     button = 0
     
     
